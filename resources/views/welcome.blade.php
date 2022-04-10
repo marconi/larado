@@ -21,6 +21,7 @@
         </style>
     </head>
     <body class="antialiased">
-      <p>Hello {{ $name }}!</p>
+      <p>Hello <strong>{{ $name }}!</strong></p>
+      <small>{{ config('app.env') }}</small>
     </body>
 </html>
