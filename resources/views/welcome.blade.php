@@ -21,6 +21,6 @@
         </style>
     </head>
     <body class="antialiased">
-      <p>Hello {{ $name }}!</p>
+      <p>Hello <strong>{{ $name }}!</strong></p>
     </body>
 </html>
